@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #CF9FFF;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.section{
+    width: 600px;
+    height: 400px;
+    background-color:rgb(87, 8, 97);
+    border: 2px solid #CF9FFF;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    margin-top: 30px;
+    padding: 50px;
+}
+
+h2{
+    font-size: larger;
+    margin: 5px;
+    padding: 5px;
+}
+
+h3{
+    margin: 5px;
+    padding: 5px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    background-color: #CF9FFF;
+    border: #301934;
+    border-radius: 4px;
+    font-size: larger;
+}
+ 
+
+
+.addition{
+    display: flex;
+    justify-content:flex-start;
+    gap: 5px;
+    height: 50pxpx;
+    width: 100px;
+    margin-top: 30px;
+   
+}
+
+
+
+.plus button{
+    border: 1px solid #CF9FFF;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #301934;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.minus button{
+    border: 1px solid #CF9FFF;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #301934;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bill{
+    display: block;
+
+}
+
+#perPersonTotal{
+    font-size: 50px;
+}
